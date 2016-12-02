@@ -4,12 +4,13 @@
   "author": "{{ author }}",
   "description": "{{ description }}",
   "scripts": {
-     "test": "BABEL_ENV=test babel-tape-runner src/**/*.test.js | tap-spec",
+    "test": "BABEL_ENV=test babel-tape-runner src/**/*.test.js | tap-spec",
     "build": "babel -d lib src",
     "build:watch": "babel -w -d lib src",
     "start": "./scripts/start.sh",
     "prepublish": "npm run build",
-    "lint": "eslint --fix ."
+    "lint": "eslint --fix .",
+    "post-install": "chmod +x scripts"
   },
   "keywords": [],
   "author": "",
