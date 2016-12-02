@@ -16,5 +16,5 @@ module.exports = {
       "message": "Author"
     },
   },
-  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm start\n"
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  chmod +x ./scripts/* \n  npm start\n"
 };
