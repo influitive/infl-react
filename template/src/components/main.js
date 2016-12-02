@@ -12,7 +12,7 @@ export default ({
   updateText
 }) => (
   <div className={styles.hashedClassExample}>
-    <h1 className={styles.title}>You have an app!</h1>
+    <h1 className={styles.title}>{{ name }}</h1>
     <div>{counter}</div>
     <button onClick={incrementCounter}>+</button>
     <button onClick={decrementCounter}>-</button>

@@ -1,7 +1,8 @@
 {
-  "name": "infl-react",
-  "version": "0.0.21",
-  "description": "",
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "author": "{{ author }}",
+  "description": "{{ description }}",
   "scripts": {
      "test": "BABEL_ENV=test babel-tape-runner src/**/*.test.js | tap-spec",
     "build": "babel -d lib src",
@@ -35,9 +36,7 @@
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3",
     "tape-catch": "^1.0.6",
-    "url-join": "^1.1.0"
-  },
-  "devDependencies": {
+    "url-join": "^1.1.0",
     "autoprefixer": "^6.4.1",
     "babel-cli": "^6.16.0",
     "babel-loader": "^6.2.5",
@@ -55,5 +54,5 @@
     "kotatsu": "^0.14.0",
     "webpack": "^1.13.2",
     "webpack-manifest-plugin": "^1.0.1"
-  }
+  },
 }
