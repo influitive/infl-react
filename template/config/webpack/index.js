@@ -9,6 +9,7 @@ module.exports = {
   module: {
     loaders: require('./loaders')
   },
-  plugins: require('./plugins')
+  plugins: require('./plugins'),
+  postcss: require('./postcss')
 };
 
