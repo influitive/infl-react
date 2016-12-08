@@ -14,6 +14,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "@influitive/eslint-config": "^1.2.3",
     "autoprefixer": "^6.4.1",
     "axios": "^0.15.2",
     "babel-cli": "^6.16.0",
@@ -27,7 +28,6 @@
     "css-loader": "^0.26.1",
     "dotenv": "^2.0.0",
     "eslint": "^3.5.0",
-    "eslint-config-reforge": "^1.1.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.22.0",
